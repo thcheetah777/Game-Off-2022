@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d1d93edca8fd1b49a335198bc76b412, type: 3}
+  m_Name: Npc
+  m_EditorClassIdentifier: 
+  sentences:
+  - 'Hello! Hello! Hello! Hello! Hello! '
+  overrideDialogueSounds:
+  - {fileID: 8300000, guid: 616921f224bf08442a5aa1b6efbb9777, type: 3}
+  - {fileID: 8300000, guid: c242a2c86c2525b45b3ef3ad952b0b76, type: 3}
+  - {fileID: 8300000, guid: 14ea0245a9ed10b43a290ea18e0b96c8, type: 3}
+  - {fileID: 8300000, guid: 10c69c07126ede8469ffc8f936ecc239, type: 3}
