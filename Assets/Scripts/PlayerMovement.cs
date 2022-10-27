@@ -11,6 +11,7 @@ public class PlayerMovement : MonoBehaviour
     public float maxSpeed;
     public float acceleration;
     public float decceleration;
+    public int direction = 1;
 
     [Header("Jumping")]
     public bool canJump = true;
@@ -73,9 +74,11 @@ public class PlayerMovement : MonoBehaviour
     private void RunControls() {
         if (Input.GetKey(inputManager.moveRightKey))
         {
-            Run(1);
+            direction = 1;
+            Run(direction);
         } else if (Input.GetKey(inputManager.moveLeftKey)) {
-            Run(-1);
+            direction = -1;
+            Run(direction);
         } else
         {
             Run(0);
