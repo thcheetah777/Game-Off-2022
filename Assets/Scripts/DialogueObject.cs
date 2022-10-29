@@ -9,5 +9,5 @@ public class DialogueObject : ScriptableObject
     [TextArea]
     public string[] sentences;
     public AudioClip[] overrideDialogueSounds;
-
+    
 }
