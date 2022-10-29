@@ -12,7 +12,7 @@ public class SettingsOptionsManager : MonoBehaviour
     SceneLoader sceneLoader;
 
     void Start() {
-        sceneLoader = GameObject.Find("Scene Loader").GetComponent<SceneLoader>();  
+        sceneLoader = GameObject.Find("Scene Loader").GetComponent<SceneLoader>();
     }
 
     void Update() {

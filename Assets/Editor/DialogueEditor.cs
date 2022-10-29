@@ -11,10 +11,6 @@ public class DialogueEditor : Editor
         base.OnInspectorGUI();
 
         EditorGUILayout.LabelField("", GUI.skin.horizontalSlider);
-        if (GUILayout.Button("Gou"))
-        {
-            
-        }
     }
 
 }

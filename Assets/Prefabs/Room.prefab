@@ -84,7 +84,6 @@ GameObject:
   - component: {fileID: 354344606792892115}
   - component: {fileID: 8697223245938243315}
   - component: {fileID: 8908717427160513028}
-  - component: {fileID: 4402569447444106159}
   m_Layer: 6
   m_Name: Map Room Border
   m_TagString: Untagged
@@ -160,19 +159,6 @@ SpriteRenderer:
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!114 &8908717427160513028
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8217537408390808170}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8a5683713046a584e8afbf69bfd4bc98, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  padding: 1
---- !u!114 &4402569447444106159
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

@@ -71,15 +71,8 @@ public class PlayerMovement : MonoBehaviour
     }
 
     private void RunControls() {
-        if (Input.GetKey(inputManager.moveRightKey))
-        {
-            Run(1);
-        } else if (Input.GetKey(inputManager.moveLeftKey)) {
-            Run(-1);
-        } else
-        {
-            Run(0);
-        }
+        playerAnimator.SetBool("Running", Input.GetAxisRaw("Horizontal") != 0 ? true : false);
+        Run(Input.GetAxisRaw("Horizontal"));
     }
 
     private void JumpControls() {

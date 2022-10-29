@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+[RequireComponent(typeof(BoxCollider2D))]
 public class Room : MonoBehaviour
 {
     
@@ -51,6 +52,10 @@ public class Room : MonoBehaviour
             // Show room on map
             mapRenderer.enabled = true;
         }
+    }
+
+    public void SetRoomSizeToCamera() {
+        transform.localScale = new Vector2(2 * Camera.main.orthographicSize * Camera.main.aspect, 2 * Camera.main.orthographicSize);
     }
 
     private void OnDrawGizmos() {
